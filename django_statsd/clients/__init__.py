@@ -1,6 +1,6 @@
 import socket
 
-from django.utils.importlib import import_module
+from importlib import import_module
 from django.conf import settings
 
 _statsd = None
